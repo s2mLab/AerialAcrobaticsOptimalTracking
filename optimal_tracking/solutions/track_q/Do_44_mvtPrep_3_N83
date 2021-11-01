@@ -1,0 +1,101 @@
+/home/andre/anaconda3/envs/Bioptim_Current/bin/python /home/andre/BiorbdOptim/examples/optimal_estimation/track_q.py
+Subject:  DoCi , Trial:  44_3
+Adjusted number of shooting points:  83
+Node step size:  3
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.4, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:   822945
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:   573240
+
+Input Error: Incorrect objective type.
+Total number of variables............................:    10044
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:    10044
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     6972
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 1.16e+01 0.00e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.4969656e+00 2.62e+00 2.33e+00  -1.0 7.93e+00    -  7.76e-01 1.00e+00h  1
+   2  2.9265668e+00 3.21e+00 4.24e+01  -1.0 3.53e+00   0.0 8.53e-01 1.00e+00h  1
+   3  2.8274049e+00 9.78e-01 2.28e+01  -1.0 1.11e+00   0.4 9.90e-01 1.00e+00h  1
+   4  2.9674820e+00 9.97e-02 7.69e+00  -1.0 4.26e-01  -0.1 9.96e-01 1.00e+00h  1
+   5  3.0926471e+00 3.50e-02 5.00e-01  -1.0 1.68e-01  -0.5 1.00e+00 1.00e+00h  1
+   6  2.9787489e+00 8.92e-03 1.01e-02  -1.7 6.62e-02  -1.0 1.00e+00 1.00e+00h  1
+   7  2.5118491e+00 7.12e-02 6.96e-03  -3.8 1.69e-01  -1.5 9.28e-01 1.00e+00h  1
+   8  1.9498006e+00 1.27e-01 3.91e-03  -3.8 3.62e-01  -2.0 1.00e+00 1.00e+00h  1
+   9  1.4737709e+00 6.95e-02 2.35e-03  -3.8 5.57e-01  -2.4 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.0163761e+00 1.86e-01 4.78e-03  -3.8 1.17e+00  -2.9 1.00e+00 1.00e+00h  1
+  11  6.0764119e-01 2.65e-01 1.12e-02  -3.8 2.35e+00  -3.4 1.00e+00 1.00e+00h  1
+  12  3.4382530e-01 2.42e-01 7.67e-03  -3.8 3.08e+00  -3.9 1.00e+00 1.00e+00h  1
+  13  1.8774960e-01 2.72e-01 3.72e-03  -3.8 4.85e+00  -4.3 1.00e+00 1.00e+00h  1
+  14  1.0493028e-01 5.64e-01 2.12e-03  -3.8 5.72e+00  -4.8 1.00e+00 1.00e+00h  1
+  15  6.3491723e-02 2.18e-01 8.68e-04  -3.8 6.60e+00  -5.3 1.00e+00 1.00e+00h  1
+  16  3.4634381e-02 1.40e-01 5.13e-04  -3.8 1.16e+01  -5.8 1.00e+00 1.00e+00h  1
+  17  1.6130609e-02 1.03e-01 5.27e-04  -3.8 2.05e+01  -6.3 1.00e+00 1.00e+00h  1
+  18  6.8305652e-03 1.09e+00 3.96e-03  -3.8 9.07e+01    -  1.00e+00 1.00e+00h  1
+  19  5.1774779e-03 5.97e-02 7.80e-04  -3.8 1.47e+01  -6.7 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  4.7185546e-03 6.11e-02 3.59e-04  -3.8 3.46e+01    -  1.00e+00 1.00e+00h  1
+  21  4.6802289e-03 3.72e-03 1.10e-05  -3.8 6.36e+00    -  1.00e+00 1.00e+00h  1
+  22  4.6794231e-03 3.41e-06 8.27e-09  -3.8 2.51e-01    -  1.00e+00 1.00e+00h  1
+  23  4.4053620e-03 4.70e-02 1.32e-05  -5.7 4.68e+00    -  9.97e-01 1.00e+00h  1
+  24  4.4033792e-03 4.94e-04 2.05e-08  -5.7 3.31e-01  -7.2 1.00e+00 1.00e+00h  1
+  25  4.4021173e-03 2.81e-03 2.05e-08  -5.7 7.99e-01  -7.7 1.00e+00 1.00e+00h  1
+  26  4.4004026e-03 8.89e-03 2.42e-08  -5.7 1.46e+00  -8.2 1.00e+00 1.00e+00h  1
+  27  4.3970090e-03 6.32e-01 1.86e-06  -5.7 8.71e+00    -  1.00e+00 1.00e+00h  1
+  28  4.3969883e-03 9.74e-04 8.74e-09  -5.7 1.78e-02    -  1.00e+00 1.00e+00h  1
+  29  4.3970162e-03 1.20e-07 5.56e-12  -5.7 3.46e-03    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  4.3968385e-03 5.08e-02 1.84e-07  -7.0 2.53e+00    -  1.00e+00 1.00e+00h  1
+  31  4.3967704e-03 6.11e-02 3.06e-07  -7.0 5.18e+00    -  1.00e+00 1.00e+00h  1
+  32  4.3967778e-03 5.22e-05 8.04e-10  -7.0 1.21e-01    -  1.00e+00 1.00e+00h  1
+  33  4.3967787e-03 5.51e-08 4.20e-13  -7.0 5.02e-03    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 33
+
+                                   (scaled)                 (unscaled)
+Objective...............:   4.3967786954479289e-03    4.3967786954479289e-03
+Dual infeasibility......:   4.2024765014775777e-13    4.2024765014775777e-13
+Constraint violation....:   5.5115815911221944e-08    5.5115815911221944e-08
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   9.0909090909097228e-08    9.0909090909097228e-08
+Overall NLP error.......:   9.0909090909097228e-08    9.0909090909097228e-08
+
+
+Number of objective function evaluations             = 34
+Number of objective gradient evaluations             = 34
+Number of equality constraint evaluations            = 34
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 34
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 33
+Total seconds in IPOPT                               = 1087.360
+
+EXIT: Optimal Solution Found.
+      nlpsol  :   t_proc      (avg)   t_wall      (avg)    n_eval
+       nlp_f  | 426.47ms ( 12.54ms)  86.05ms (  2.53ms)        34
+       nlp_g  |   9.93 s (292.04ms)   1.70 s ( 50.05ms)        34
+  nlp_grad_f  |   1.31 s ( 36.45ms) 260.00ms (  7.22ms)        36
+  nlp_hess_l  |   2.92ks ( 88.36 s) 740.88 s ( 22.45 s)        33
+   nlp_jac_g  |   1.31ks ( 37.45 s) 329.60 s (  9.42 s)        35
+       total  |   4.31ks (  4.31ks)   1.09ks (  1.09ks)         1
+Number of shooting points:  83
+Runtime:  1107.7047805786133
+
+Process finished with exit code 0
+
+

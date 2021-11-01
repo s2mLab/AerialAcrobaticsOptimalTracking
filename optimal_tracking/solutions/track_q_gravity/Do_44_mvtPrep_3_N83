@@ -1,0 +1,109 @@
+/home/andre/anaconda3/envs/Bioptim_Current/bin/python /home/andre/BiorbdOptim/examples/optimal_estimation/track_q_gravity.py
+Subject:  DoCi , Trial:  44_3
+Adjusted number of shooting points:  83
+Node step size:  3
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.14.4, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:   836889
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:   592665
+
+Input Error: Incorrect objective type.
+Total number of variables............................:    10046
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:    10046
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     6972
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  0.0000000e+00 1.16e+01 0.00e+00  -1.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.4969549e+00 2.62e+00 2.33e+00  -1.0 7.93e+00    -  7.76e-01 1.00e+00h  1
+   2  2.9301724e+00 3.19e+00 4.24e+01  -1.0 3.54e+00   0.0 8.54e-01 1.00e+00h  1
+   3  2.8296984e+00 9.72e-01 2.27e+01  -1.0 1.12e+00   0.4 9.90e-01 1.00e+00h  1
+   4  2.9708182e+00 9.86e-02 7.69e+00  -1.0 4.33e-01  -0.1 9.96e-01 1.00e+00h  1
+   5  3.0935202e+00 3.51e-02 5.19e-01  -1.0 2.12e-01  -0.5 1.00e+00 1.00e+00h  1
+   6  2.9790287e+00 9.12e-03 1.76e-01  -1.7 8.71e-02  -1.0 1.00e+00 1.00e+00h  1
+   7  2.5358260e+00 6.30e-02 1.31e-02  -2.5 1.67e-01  -1.5 1.00e+00 1.00e+00h  1
+   8  1.9884327e+00 9.68e-02 5.16e-03  -2.5 3.50e-01  -2.0 1.00e+00 1.00e+00h  1
+   9  1.5155630e+00 6.62e-02 2.32e-03  -2.5 5.76e-01  -2.4 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.0549588e+00 1.32e-01 5.02e-03  -2.5 1.24e+00  -2.9 1.00e+00 1.00e+00h  1
+  11  6.4130598e-01 2.69e-01 1.20e-02  -2.5 2.45e+00  -3.4 1.00e+00 1.00e+00h  1
+  12  4.0367305e-01 2.18e-01 3.73e-02  -2.5 4.41e+00  -3.9 5.55e-01 8.94e-01h  1
+  13  2.6952997e-01 2.84e-01 6.86e-02  -2.5 5.20e+00  -4.3 1.00e+00 1.00e+00h  1
+  14  1.8262605e-01 5.22e-01 1.99e-01  -2.5 6.18e+00  -4.8 1.13e-01 1.00e+00h  1
+  15  1.1814119e-01 2.05e-01 4.48e-03  -2.5 7.41e+00  -5.3 9.99e-01 1.00e+00h  1
+  16  8.0514342e-02 2.04e+00 4.12e-02  -2.5 1.16e+02    -  1.00e+00 7.19e-01h  1
+  17  7.5625454e-02 1.25e-01 1.51e-02  -2.5 6.86e+00  -5.8 1.00e+00 1.00e+00h  1
+  18  8.2430460e-02 1.23e-01 2.70e-02  -2.5 3.06e+01  -4.4 3.68e-02 1.77e-02h  3
+  19  7.9837566e-02 4.47e-02 7.84e-02  -2.5 2.53e+00  -2.2 1.00e+00 6.41e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  7.8724215e-02 5.45e-03 6.24e-02  -2.5 3.47e-01  -2.7 2.63e-01 1.00e+00h  1
+  21  7.3090687e-02 1.40e-03 1.27e-02  -2.5 4.58e-01  -3.2 1.00e+00 1.00e+00h  1
+  22  8.0860124e-03 6.01e-01 6.10e-03  -3.8 2.47e+01    -  7.17e-01 1.00e+00h  1
+  23  5.8132881e-03 1.66e-02 1.20e-02  -3.8 5.39e-01  -3.6 1.00e+00 1.00e+00h  1
+  24  5.3380519e-03 2.02e-03 4.65e-04  -3.8 1.74e-01  -4.1 1.00e+00 1.00e+00h  1
+  25  4.6233566e-03 1.79e-01 1.74e-04  -3.8 1.76e+01    -  1.00e+00 1.00e+00h  1
+  26  4.5953460e-03 2.02e-03 1.36e-06  -3.8 2.31e+00    -  1.00e+00 1.00e+00h  1
+  27  4.5953320e-03 8.90e-07 6.67e-10  -3.8 2.56e-02    -  1.00e+00 1.00e+00h  1
+  28  4.3392181e-03 1.73e-03 8.65e-04  -5.7 2.69e-01  -4.6 9.57e-01 1.00e+00h  1
+  29  4.3317893e-03 5.65e-05 1.39e-04  -5.7 9.05e-02  -5.1 1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  4.3293898e-03 2.41e-05 1.23e-06  -5.7 1.17e-01  -5.6 1.00e+00 1.00e+00h  1
+  31  4.3263155e-03 3.37e-05 2.26e-07  -5.7 2.44e-01  -6.0 1.00e+00 1.00e+00h  1
+  32  4.3220341e-03 1.39e-04 1.58e-07  -5.7 5.11e-01  -6.5 1.00e+00 1.00e+00h  1
+  33  4.3000369e-03 8.71e-01 8.86e-06  -5.7 1.06e+01    -  1.00e+00 1.00e+00h  1
+  34  4.2995098e-03 1.56e-03 1.34e-08  -5.7 1.09e-01    -  1.00e+00 1.00e+00h  1
+  35  4.2995580e-03 6.95e-07 2.56e-11  -5.7 8.27e-03    -  1.00e+00 1.00e+00h  1
+  36  4.2993768e-03 5.08e-02 4.53e-07  -7.0 2.53e+00    -  1.00e+00 1.00e+00h  1
+  37  4.2993096e-03 5.94e-02 3.08e-07  -7.0 5.06e+00    -  1.00e+00 1.00e+00h  1
+  38  4.2993169e-03 4.84e-05 8.79e-10  -7.0 1.20e-01    -  1.00e+00 1.00e+00h  1
+  39  4.2993178e-03 6.26e-08 4.59e-13  -7.0 5.30e-03    -  1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 39
+
+                                   (scaled)                 (unscaled)
+Objective...............:   4.2993177797189912e-03    4.2993177797189912e-03
+Dual infeasibility......:   4.5926544891975879e-13    4.5926544891975879e-13
+Constraint violation....:   6.2609551321202161e-08    6.2609551321202161e-08
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   9.0909090909102336e-08    9.0909090909102336e-08
+Overall NLP error.......:   9.0909090909102336e-08    9.0909090909102336e-08
+
+
+Number of objective function evaluations             = 43
+Number of objective gradient evaluations             = 40
+Number of equality constraint evaluations            = 43
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 40
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 39
+Total seconds in IPOPT                               = 1269.210
+
+EXIT: Optimal Solution Found.
+      nlpsol  :   t_proc      (avg)   t_wall      (avg)    n_eval
+       nlp_f  | 310.47ms (  7.22ms)  63.18ms (  1.47ms)        43
+       nlp_g  |  12.31 s (286.25ms)   2.09 s ( 48.61ms)        43
+  nlp_grad_f  |   1.09 s ( 25.86ms) 212.08ms (  5.05ms)        42
+  nlp_hess_l  |   3.41ks ( 87.35 s) 856.93 s ( 21.97 s)        39
+   nlp_jac_g  |   1.56ks ( 37.95 s) 390.07 s (  9.51 s)        41
+       total  |   5.07ks (  5.07ks)   1.27ks (  1.27ks)         1
+Number of shooting points:  83
+Gravity rotation:  [67.01797841  0.8671652 ]
+Gravity:  [-0.13663303  0.05794669 -9.80526687]
+Runtime:  1305.5738558769226
+
+Process finished with exit code 0
+
+
